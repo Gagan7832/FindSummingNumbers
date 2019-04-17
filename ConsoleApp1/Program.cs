@@ -15,20 +15,29 @@ namespace ConsoleApp1
         }
         class GenerateList
         {
-
+            a (28)
             const int LEN = 100;
             ArrayList ListQ;
             public void Run(int AddUpToNumber)
-                
-        {
-            Random r = new Random();
-            ListQ = new ArrayList();
-            for (int i = 0; i < LEN; i++) { ListQ.Add(r.Next(100)); }
-            this.findTwoNumbersThatAddUpTo(AddUpToNumber);
-        }
-    }
-    public void findTwoNumbersThatAddUpTo(int addUpToNumber)
 
-        
+            {
+                Random r = new Random();
+                ListQ = new ArrayList();
+                for (int i = 0; i < LEN; i++) { ListQ.Add(r.Next(100)); }
+                this.findTwoNumbersThatAddUpTo(AddUpToNumber);
+            }
+
+            private void findTwoNumbersThatAddUpTo(int addUpToNumber)
+            {
+                throw new NotImplementedException();
+            }
+        }
+        public void findTwoNumbersThatAddUpTo(int addUpToNumber)
+        {
+
+        }
+
+
+
     }
 }
