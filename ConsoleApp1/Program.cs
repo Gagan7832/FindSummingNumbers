@@ -15,7 +15,7 @@ namespace ConsoleApp1
         }
         class GenerateList
         {
-            a (28)
+            
             const int LEN = 100;
             ArrayList ListQ;
             public void Run(int AddUpToNumber)
@@ -34,6 +34,16 @@ namespace ConsoleApp1
         }
         public void findTwoNumbersThatAddUpTo(int addUpToNumber)
         {
+            Random r = new Random();
+            ListQ = new ArrayList();
+            int n1 = 1;
+            int n2 = 2;
+            for (int i = 0; i < LEN; i++)
+            {
+                n1 = num1;
+                m2 = num2;
+                Console.WriteLine(n1 + "=" n2 = n1 + n2);
+            }
 
         }
 
